@@ -31,6 +31,11 @@ function install_prometheus() {
     # Install
 }
 
+function print_line(){
+    echo ""
+    printf "========================================================\n"
+}
+
 function install_prometheus_operator() {
     log "Installing prometheus operator
     # Install
